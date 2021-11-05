@@ -1,10 +1,12 @@
 local colors = {
+  none = "NONE",
 	fg = "#cccccc",
 	bg = "#222222",
 	alt_bg = "#282828",
+  fg_gutter = "#3d3d3d",
 	dark = "#242424",
-	accent = "#BBBBBB",
-	popup_back = "#2D2D30",
+	accent = "#444444",
+	popup_back = "#2D2D2D",
 	search_orange = "#613214",
 	search_blue = "#5e81ac",
 	white = "#D8DEE9",
@@ -38,6 +40,10 @@ local colors = {
 	purple_test = "#ff007c",
 	cyan_test = "#00dfff",
 	ui_blue = "#264F78",
+  diff_add = "#223d22",
+  diff_delete = "#6e3b40",
+  diff_change = "#18344c",
+  diff_text = "#265478",
 }
 
 return colors
